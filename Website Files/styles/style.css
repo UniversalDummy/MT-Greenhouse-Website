@@ -6,6 +6,14 @@ body {
     font-size: 150px;
 }
 
+.massive {
+    font-size: 100px;
+}
+
+.big {
+    font-size: 85px;
+}
+
 .MT-light {
     color: #D6B4FC;
 }
@@ -27,4 +35,16 @@ body {
     background-size: 1920px 1080px;
     background-attachment: fixed;
     background-position: center;
+}
+
+.dark_green_bknd {
+    background-color: #06402B;
+}
+
+.rad {
+    border-radius: 50%;
+}
+
+.no-underline {
+    text-decoration: none; 
 }
