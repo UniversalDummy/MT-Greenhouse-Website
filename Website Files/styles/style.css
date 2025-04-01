@@ -48,3 +48,19 @@ body {
 .no-underline {
     text-decoration: none; 
 }
+
+.rotate {
+    transition: transform .2s;
+}
+
+.rotate:hover {
+    transform: rotate(-15deg);
+}
+
+.text-transition {
+    transition: transform .2s;
+}
+
+.text-transition:hover {
+    /*transform: scale(1.1)*/
+}
