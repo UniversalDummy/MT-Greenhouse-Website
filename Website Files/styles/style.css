@@ -3,14 +3,28 @@ body {
 }
 
 .HUGE {
-    font-size: 85px;
+    font-size: 150px;
 }
 
+.MT-light {
+    color: #D6B4FC;
+}
 
-.opening-img {
-    background-image: url("../assets/Greenhouse_Overview.jpg");
+.GREEN-light {
+    color: #96F97B;
+}
+
+.flwr-bknd {
+    background-image: url("../assets/Flowers_cover.JPG");
     background-repeat: no-repeat;
-    background-size: auto;
-    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: 1920px 1080px;
+}
+
+.bkgd-img-index {
+    background-image: url("../assets/Blurred_Grass.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
     background-position: center;
 }
