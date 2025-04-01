@@ -5,3 +5,12 @@ body {
 .HUGE {
     font-size: 85px;
 }
+
+
+.opening-img {
+    background-image: url("../assets/Greenhouse_Overview.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*background-attachment: fixed;*/
+    background-position: center;
+}
