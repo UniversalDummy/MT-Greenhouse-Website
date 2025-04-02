@@ -37,6 +37,38 @@ body {
     background-position: center;
 }
 
+.bkgd-img-plants {
+    background-image: url("../assets/Greenhouse_Overview_blurred.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bkgd-img-masonry {
+    background-image: url("../assets/MT_Masonry_Blurred.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bkgd-img-team {
+    background-image: url("../assets/MT_Birdseye_Blurred.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bkgd-img-search {
+    background-image: url("../assets/Search_bg_blurred.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .dark_green_bknd {
     background-color: #06402B;
 }
@@ -57,10 +89,23 @@ body {
     transform: rotate(-15deg);
 }
 
-.text-transition {
-    transition: transform .2s;
+.navbar-item-text {
+    color: white;
+    transition: color .2s;
 }
 
-.text-transition:hover {
-    /*transform: scale(1.1)*/
+.navbar-item-text:hover {
+    color: #ffc107;
+}
+
+.current {
+    font-weight: bold;
+    color: #ffc107;
+    /*border-radius: 10%;*/
+}
+
+.current:hover {
+    font-weight: bold;
+    color: #ffc107;
+    /*border-radius: 10%;*/
 }
