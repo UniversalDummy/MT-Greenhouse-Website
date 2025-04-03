@@ -14,6 +14,10 @@ body {
     font-size: 85px;
 }
 
+.readable {
+    font-size: 30px;
+}
+
 .MT-light {
     color: #D6B4FC;
 }
@@ -73,6 +77,10 @@ body {
     background-color: #06402B;
 }
 
+.rad10 {
+    border-radius: 15%;
+}
+
 .rad {
     border-radius: 50%;
 }
@@ -108,4 +116,24 @@ body {
     font-weight: bold;
     color: #ffc107;
     /*border-radius: 10%;*/
+}
+
+.boxShadowingExpand_hover {
+    box-shadow: 2px 2px 5px black;
+    transition: box-shadow 0.2s, rotate 0.2s, transform 0.2s;
+}
+
+
+.boxShadowingExpand_hover:hover {
+    box-shadow: 5px 5px 10px black;
+    transform: scale(1.2);
+    rotate: -15deg;
+}
+
+
+
+
+/*Developer Card Backgrounds*/
+.UD_bg_color {
+    background-color: #96d3ff;
 }
