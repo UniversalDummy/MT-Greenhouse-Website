@@ -118,22 +118,69 @@ body {
     /*border-radius: 10%;*/
 }
 
-.boxShadowingExpand_hover {
+.boxShadowingExpandRotate_hover {
     box-shadow: 2px 2px 5px black;
     transition: box-shadow 0.2s, rotate 0.2s, transform 0.2s;
 }
 
 
-.boxShadowingExpand_hover:hover {
+.boxShadowingExpandRotate_hover:hover {
     box-shadow: 5px 5px 10px black;
     transform: scale(1.2);
     rotate: -15deg;
 }
 
+.boxShadowingExpand_hover {
+    box-shadow: 2px 2px 5px black;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
 
+
+.boxShadowingExpand_hover:hover {
+    box-shadow: 5px 5px 10px black;
+    transform: scale(1.05);
+}
+
+.boxShadowingExpandShade_hover {
+    box-shadow: 2px 2px 5px black;
+    filter: grayscale(10);
+    transition: box-shadow 0.2s, filter 0.2s, transform 0.2s;
+}
+
+
+.boxShadowingExpandShade_hover:hover {
+    box-shadow: 5px 5px 10px black;
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+.boxShadowingExpandBlur_hover {
+    box-shadow: 2px 2px 5px black;
+    filter: blur(10px);
+    transition: box-shadow 0.2s, filter 0.2s, transform 0.2s;
+}
+
+
+.boxShadowingExpandBlur_hover:hover {
+    box-shadow: 5px 5px 10px black;
+    transform: scale(1.2);
+    filter: blur(0px);
+}
 
 
 /*Developer Card Backgrounds*/
 .UD_bg_color {
     background-color: #96d3ff;
+}
+
+.ASEP_bg_color {
+    background-color: #fdd9f5;
+}
+
+.ZLO_bg_color {
+    background-color: #d4417c;
+}
+
+.CCC_bg_color {
+    background-color: #ffffff;
 }
