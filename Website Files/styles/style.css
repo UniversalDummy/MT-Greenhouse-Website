@@ -22,8 +22,15 @@ body {
     color: #D6B4FC;
 }
 
+.border-MT-light {
+    border-style: none none solid none;
+    border-color: #D6B4FC;
+    border-width: 5px;
+}
+
 .GREEN-light {
-    color: #96F97B;
+    /*color: #96F97B;*/
+    color: gold
 }
 
 .flwr-bknd {
@@ -103,18 +110,21 @@ body {
 }
 
 .navbar-item-text:hover {
-    color: #ffc107;
+    /*color: #ffc107;*/
+    color: #D6B4FC;
 }
 
 .current {
     font-weight: bold;
-    color: #ffc107;
+    /*color: #ffc107; */
     /*border-radius: 10%;*/
+    color: #D6B4FC;
 }
 
 .current:hover {
     font-weight: bold;
-    color: #ffc107;
+    color: #D6B4FC;
+    /*color: #ffc107; */
     /*border-radius: 10%;*/
 }
 
