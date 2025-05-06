@@ -19,12 +19,12 @@ body {
 }
 
 .MT-light {
-    color: #D6B4FC;
+    color: #ffffff;
 }
 
 .border-MT-light {
     border-style: none none solid none;
-    border-color: #D6B4FC;
+    border-color: gold;
     border-width: 5px;
 }
 
@@ -34,10 +34,10 @@ body {
 }
 
 .flwr-bknd {
-    background-image: url("../assets/Flowers_cover.JPG");
+    background-image: url("../assets/Flowers/MT\ greenhouse\ photos\ \(updated\)/IMG_7715.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1920px 1080px;
+    background-size: 1600px 1080px;
 }
 
 .bkgd-img-index {
@@ -111,19 +111,19 @@ body {
 
 .navbar-item-text:hover {
     /*color: #ffc107;*/
-    color: #D6B4FC;
+    color: gold;
 }
 
 .current {
     font-weight: bold;
     /*color: #ffc107; */
     /*border-radius: 10%;*/
-    color: #D6B4FC;
+    color: gold;
 }
 
 .current:hover {
     font-weight: bold;
-    color: #D6B4FC;
+    color: gold;
     /*color: #ffc107; */
     /*border-radius: 10%;*/
 }
@@ -208,3 +208,4 @@ table {  font-family: arial, sans-serif;
   tr:nth-child(even) {
     background-color: white;
   }
+
