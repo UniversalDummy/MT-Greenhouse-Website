@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Website Files/styles/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
-    <link rel="icon" type="image/x-icon" href="Website Files/assets/MT Greenhouse Favicon.png">
-    <title>Monty Tech Greenhouse | Plant Catalogue</title>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Website Files/styles/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
+  <link rel="icon" type="image/x-icon" href="Website Files/assets/MT Greenhouse Favicon.png">
+  <title>Monty Tech Greenhouse | Plant Catalogue</title>
 </head>
+
 <body class="text-center bkgd-img-plants">
   <nav class="navbar fixed-top navbar-expand-lg bg-success border-bottom border-warning border-5">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="Website Files/assets/MT Greenhouse Favicon.png" class="img-fluid rotate" style="width: 65px;"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html"><img src="Website Files/assets/MT Greenhouse Favicon.png"
+          class="img-fluid rotate" style="width: 65px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link navbar-item-text" aria-current="page" href="index.html">Home <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
-                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
-                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+            <a class="nav-link navbar-item-text" aria-current="page" href="index.html">Home <svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
               </svg></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link current" href="plants.html">Plant Catalogue <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower1" viewBox="0 0 16 16">
-                <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+            <a class="nav-link current" href="plants.html">Plant Catalogue <svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-flower1" viewBox="0 0 16 16">
+                <path
+                  d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
               </svg></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbar-item-text" href="masonry.html">Masonry Catalogue <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
-              <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
-            </svg></a>
+            <a class="nav-link navbar-item-text" href="masonry.html">Masonry Catalogue <svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" />
+              </svg></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbar-item-text" href="gallery.html">Gallery <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-image" viewBox="0 0 16 16">
-              <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
-              <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54L1 12.5v-9a.5.5 0 0 1 .5-.5z"/>
-            </svg></a>
+            <a class="nav-link navbar-item-text" href="gallery.html">Gallery <svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-card-image" viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                <path
+                  d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54L1 12.5v-9a.5.5 0 0 1 .5-.5z" />
+              </svg></a>
           <li class="nav-item">
-            <a class="nav-link navbar-item-text" href="team.html">Developers <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
-                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+            <a class="nav-link navbar-item-text" href="team.html">Developers <svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                <path
+                  d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
               </svg></a>
           </li>
         </ul>
@@ -56,101 +73,405 @@
   <br>
   <br>
 
-  <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7751.png" class="d-block w-50 img-fluid m-auto text-center" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7751.png" class="d-block w-50 img-fluid m-auto text-center" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7751.png" class="d-block w-75 img-fluid m-auto text-center" alt="...">
-      </div> <div class="carousel-item">
-        <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7751.png" class="d-block w-50 img-fluid m-auto text-center" alt="...">
-      </div>
+  <div class="p-5 row">
+    <div class="col-sm-2">
+
     </div>
+
+    <div class="dark_green_bknd border border-5 border-success rounded rounded-5 col-sm-8">
+      <div id="carouselExample" class="carousel slide p-5">
+        <h1 class="big pb-3 text-light">Plants Preview</h1>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row p-5">
+              <div class="col-sm-7">
+                <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7751.png"
+                  class="d-block w-75 img-fluid m-auto text-center rounded border border-3" alt="...">
+              </div>
+              <div class="col-sm-4 text-light m-auto">
+                <h1>
+                  <b>Surfina Trailing Series Wild Plum</b>
+                </h1>
+                <p>
+                  Hanging plant
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row p-5">
+              <div class="col-sm-7">
+                <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7752.png"
+                  class="d-block w-75 img-fluid m-auto text-center rounded border border-3" alt="...">
+              </div>
+              <div class="col-sm-4 text-light m-auto">
+                <h1>
+                  <b>Petunia Capella Series Capella Hello Yellow <br>&<br>Capella White</b>
+                </h1>
+                <p>
+                  Hanging plants
+                  <br>
+                  Perennial plants
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row p-5">
+              <div class="col-sm-7">
+                <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7753.png"
+                  class="d-block w-75 img-fluid m-auto text-center rounded border border-3" alt="...">
+              </div>
+              <div class="col-sm-4 text-light m-auto">
+                <h1>
+                  <b>Flower Assortment</b>
+                </h1>
+                <p>
+                  Mix of flowers
+                  <br>
+                  Color Combination
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row p-5">
+              <div class="col-sm-7">
+                <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7757.png"
+                  class="d-block w-75 img-fluid m-auto text-center rounded border border-3" alt="...">
+              </div>
+              <div class="col-sm-4 text-light m-auto">
+                <h1>
+                  <b>Amore Series Amore Heart and Soul</b>
+                </h1>
+                <p>
+                  Annual plant
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row p-5">
+              <div class="col-sm-7">
+                <img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7763.png"
+                  class="d-block w-75 img-fluid m-auto text-center rounded border border-3" alt="...">
+              </div>
+              <div class="col-sm-4 text-light m-auto">
+                <h1>
+                  <b>Fuschia-Hanging Series Marinka</b>
+                </h1>
+                <p>
+                  Perennial plant
+                  <br>
+                  Hanging plant
+                  <br>
+                  Long-blooming
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h3 class="text-light">All sales <b>Final</b>. No refunds, no exchanges.</h3>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+
+    <div class="col-sm-2">
+
+    </div>
+  </div>
+
+  <div class="p-5">
+    <table class="table table-secondary rounded-5">
+      <thead>
+        <td>Image</td>
+        <td>Plant Name</td>
+        <td class="">Price</td>
+      </thead>
+      <tbody>
+        <tr class="text-start">
+          <td><img src="Website Files/assets/Flowers/Hardy-Fern-Collection-3-scaled.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Fern Collection</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/echinacea_sunmagic_hot_pink_001.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Sunmagic Echinacea Collection</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/dispthumb.webp"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Trixi-Liner Crystallize</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Trixi Geisha Girl.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Trixi-liner Geisha Girl</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7745.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Trixi-liner Starlight Starbright</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7753.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Multi-Liner Passion Combos Blackberry Tart</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Disco Inferno.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Multi-Liner Disco Inferno</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7737.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Companion Foliage-Dracaena indivisia</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/cyperus-papyrus-prince-tut.webp"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Companion Foliage-Little Prince Cyperus</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Ipomoea-Marguerite-scaled.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Companion Foliage-Ipomoea Marguerite</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7740.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Companion Foliage-Ipomoea Blackie</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Chameleon Series Calibrachoa Sunshine Berry.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Chameleon Series Calibrachoa Sunshine Berry</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Chameleon Series Calibrachoa Bluberry Scone.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Chameleon Series Calibrachoa Bluberry Scone</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7760.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Bloomtastic Series Calibrachoa Bloomtastic Yellow</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Mini Famous Neo Series Calibrachoa Neo Light Pink & Eye.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Mini Famous Neo Series Calibrachoa Neo Light Pink & Eye</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Mini Famous Neo Series Calibrachoa Neo White.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Mini Famous Neo Series Calibrachoa Neo White</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Coleus Trailing Series-Burgundy Wedding.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Coleus Trailing Series-Burgundy Wedding</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Coleus Trailing Series Trailing Purple Heart.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Coleus Trailing Series Trailing Purple Heart</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Cuphea Hummingbirds Lunch.webp"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Cuphea Hummingbirds Lunch</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7759.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Fushia-Hanging Series Blue Eyes</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Fushia-Hanging Series Dark Eyes.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Fushia-Hanging Series Dark Eyes</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7766.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Fuschia-Hanging Series Marinka</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Fushcia-Hanging Series Swingtime.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Fushcia-Hanging Series Swingtime</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Geranium- Americana Series Americana Bright Red.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Geranium- Americana Series Americana Bright Red</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Geranium-Americana Series Americana White.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Geranium-Americana Series Americana White</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Lobelia Hot water blue.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Lobelia Hot water blue</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Lobelia Hot Snow White.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Lobelia Hot Snow White</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7751.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Petunia Capella Series Capella Coral</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Petunia Capella Series Capella White.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Petunia Capella Series Capella White</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Petunia Capella Series Capella Hello Yellow.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Petunia Capella Series Capella Hello Yellow</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Petunia Capella Series Capella Indigo.jpg"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Petunia Capella Series Capella Indigo</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/Surfina Trailing Series Heavenly Blackberries and Cream.webp"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Surfina Trailing Series Heavenly Blackberries and Cream</td>
+          <td class="">$XX.XX</td>
+        </tr>
+        <tr>
+          <td><img src="Website Files/assets/Flowers/MT greenhouse photos (updated)/IMG_7757.png"
+              class="d-block w-25 img-fluid text-center rounded border border-dark border-3" alt="..."></td>
+          <td>Amore Series Amore Heart and Soul</td>
+          <td class="">$XX.XX</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
   <h2> Plant Names, Prices, and Pictures </h2>
 
-<table>
-  <tr>
-    <th>Fern Collection</th>
-    <th> Placeholder</th>
-    <th>Placeholder</th>
-  </tr>
-  <tr>
-    <td>Sunmagic Echinacea Collection </td>
-    <td> Multi-liner Boldness</td>
-    <td>Multi-liner The Patriot </td>
-  </tr>
-  <tr>
-    <td>Trixi-Liner Crystallize</td>
-    <td>Trixi-liner Geisha Girl</td>
-    <td>Trixi-liner Starlight Starbright</td>
-  </tr>
-  <tr>
-    <td>Multi-Liner Passion Combos Blackberry Tart</td>
-    <td>Multi-Liner Disco Inferno</td>
-    <td> Companion Foliage-Dracaena indivisia</td>
-  </tr>
-  <tr>
-    <td>Companion Foliage-Little Prince Cyperus</td>
-    <td>Companion Foliage-Ipomoea Marguerite</td>
-    <td>Companion Foliage-Ipomoea Blackie</td>
-  </tr>
-  <tr>
-    <td>Chameleon Series Calibrachoa Sunshine Berry</td>
-    <td>Chameleon Series Calibrachoa Bluberry Scone</td>
-    <td>Bloomtastic Series Calibrachoa Bloomtastic Yellow</td>
-  </tr>
-  <tr>
-    <td> Mini Famous Neo Series Calibrachoa Neo Light Pink & Eye</td>
-    <td> Coleus Trailing Series-Burgundy Wedding</td>
-    <td> Coleus Trailing Series Trailing Purple Heart</td>
-  </tr>
-  <tr>
-    <td>  Cuphea Hummingbirds Lunch</td>
-    <td>Fushia-Hanging Series Blue Eyes </td>
-    <td>Fushia-Hanging Series Dark Eyes </td>
-  <tr>
-    <td> Fuschia-Hanging Series Marinka</td>
-    <td> Fushcia-Hanging Series Swingtime</td>
-    <td>Geranium- Americana Series Americana Bright Red </td>
-  </tr>
-  <tr>
-    <td> Geranium-Americana Series Americana White</td>
-    <td> Lobelia Hot water blue</td>
-    <td> Lobelia Hot Snow White</td>
-  </tr>
+  <table>
+    <tr>
+      <th>Fern Collection</th>
+      <th> Placeholder</th>
+      <th>Placeholder</th>
+    </tr>
+    <tr>
+      <td>Sunmagic Echinacea Collection </td>
+      <td> Multi-liner Boldness</td>
+      <td>Multi-liner The Patriot </td>
+    </tr>
+    <tr>
+      <td>Trixi-Liner Crystallize</td>
+      <td>Trixi-liner Geisha Girl</td>
+      <td>Trixi-liner Starlight Starbright</td>
+    </tr>
+    <tr>
+      <td>Multi-Liner Passion Combos Blackberry Tart</td>
+      <td>Multi-Liner Disco Inferno</td>
+      <td> Companion Foliage-Dracaena indivisia</td>
+    </tr>
+    <tr>
+      <td>Companion Foliage-Little Prince Cyperus</td>
+      <td>Companion Foliage-Ipomoea Marguerite</td>
+      <td>Companion Foliage-Ipomoea Blackie</td>
+    </tr>
+    <tr>
+      <td>Chameleon Series Calibrachoa Sunshine Berry</td>
+      <td>Chameleon Series Calibrachoa Bluberry Scone</td>
+      <td>Bloomtastic Series Calibrachoa Bloomtastic Yellow</td>
+    </tr>
+    <tr>
+      <td> Mini Famous Neo Series Calibrachoa Neo Light Pink & Eye</td>
+      <td> Coleus Trailing Series-Burgundy Wedding</td>
+      <td> Coleus Trailing Series Trailing Purple Heart</td>
+    </tr>
+    <tr>
+      <td> Cuphea Hummingbirds Lunch</td>
+      <td>Fushia-Hanging Series Blue Eyes </td>
+      <td>Fushia-Hanging Series Dark Eyes </td>
+    <tr>
+      <td> Fuschia-Hanging Series Marinka</td>
+      <td> Fushcia-Hanging Series Swingtime</td>
+      <td>Geranium- Americana Series Americana Bright Red </td>
+    </tr>
+    <tr>
+      <td> Geranium-Americana Series Americana White</td>
+      <td> Lobelia Hot water blue</td>
+      <td> Lobelia Hot Snow White</td>
+    </tr>
     <td>Petunia Capella Series Capella Coral </td>
-    <td>  Petunia Capella Series Capella White</td>
+    <td> Petunia Capella Series Capella White</td>
     <td>Petunia Capella Series Capella Hello Yellow </td>
-  </tr>
-  <tr>
-    <td> Petunia Capella Series Capella Indigo </td>
-    <td>Sufina Trailing Series Heavenly Blackberries and Cream </td>
-    <td>  Surfina Trailing Series Wild Plum</td>
+    </tr>
+    <tr>
+      <td> Petunia Capella Series Capella Indigo </td>
+      <td>Sufina Trailing Series Heavenly Blackberries and Cream </td>
+      <td> Surfina Trailing Series Wild Plum</td>
     </tr>
     <tr>
       <td> Amore Series Amore Heart and Soul </td>
     </tr>
-  </tr>
-</table>
+    </tr>
+  </table>
 
 
-    
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
   <script src="Website Files/scripts/script.js"></script>
 </body>
+
 </html>

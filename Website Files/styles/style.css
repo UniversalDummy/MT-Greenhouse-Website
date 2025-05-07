@@ -93,7 +93,7 @@ body {
 }
 
 .no-underline {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .rotate {
@@ -194,18 +194,20 @@ body {
 .CCC_bg_color {
     background-color: #ffffff;
 }
-table {  font-family: arial, sans-serif;
+
+table {
+    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  td, th {
+}
+
+td,
+th {
     border: 1px solid white;
     text-align: left;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: white;
-  }
+}
 
+tr:nth-child(even) {
+    background-color: white;
+}
